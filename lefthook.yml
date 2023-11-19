@@ -1,0 +1,12 @@
+pre-commit:
+  commands:
+    linter:
+      glob: "*.dart"
+      run: dart analyze {staged_files}
+    format:
+      glob: "*.dart"
+      run: dart format {staged_files}
+commit-msg:
+  commands:
+    commitlint:
+      run: commitlint -g .commitlintrc.yaml -e

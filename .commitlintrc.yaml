@@ -1,0 +1,11 @@
+rules:
+  type:
+    level: error
+    options:
+      - feat
+      - fix
+  scope:
+    level: error
+    options:
+      - config
+      - app
