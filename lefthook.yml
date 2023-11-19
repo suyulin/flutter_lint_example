@@ -6,6 +6,7 @@ pre-commit:
     format:
       glob: "*.dart"
       run: dart format {staged_files}
+      stage_fixed: true
 commit-msg:
   commands:
     commitlint:
