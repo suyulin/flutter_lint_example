@@ -4,7 +4,8 @@
 
 
 ## Run
-
+Run `lefthook install` in the workspace  
+Test commit
 ```
 $ git commit -a -m "test"
 
